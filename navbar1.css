@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #C4C4C4;
+}
+
+.flex-item {
+    padding: 5px;
+    margin: 5px;
+    flex: 1;
+}
+
+.logo {
+    margin-left: 2vw;
+}
+
+.menu {
+    font-size: 18pt;
+    margin-left: 1vw;
+}
+
+.tabel {
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    font-size: 13pt;
+    border-radius: 20px;
+    border: none;
+}
+
+.search-icon {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+#tanggalwaktu {
+    text-align: end;
+    margin-right: 2vw;
+    font-size: 15pt;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+
+    #bag-search {
+        flex: 0;
+    }
+
+    #tanggalwaktu {
+        font-size: 11pt;
+    }
+}
